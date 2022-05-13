@@ -10,6 +10,8 @@ public class ReadInput : MonoBehaviour
     public string input;
     public static ReadInput _ReadInput;
 
+    public int score;
+
     private void Awake()
     {
         if (_ReadInput == null)
